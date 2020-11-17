@@ -1,7 +1,13 @@
-import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
-  return <div className="App">Github finder</div>;
-}
+import Header from "./layouts/Header/Header";
+
+const App = () => {
+  return (
+    <Router>
+      <Header />
+    </Router>
+  );
+};
 
 export default App;
