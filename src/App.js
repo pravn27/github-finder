@@ -1,13 +1,7 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
-import Header from "./layouts/Header/Header";
+import RouterApp from "./RouterApp";
 
 const App = () => {
-  return (
-    <Router>
-      <Header />
-    </Router>
-  );
+  return <RouterApp />;
 };
 
 export default App;
