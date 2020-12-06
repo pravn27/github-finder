@@ -1,6 +1,5 @@
 import React, { useState, Fragment } from "react";
 import axios from "axios";
-
 import Search from "../../components/Search/Search";
 import Users from "../../components/Users/Users";
 

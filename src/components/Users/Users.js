@@ -1,8 +1,6 @@
 import React from "react";
-
 import UserItem from "./UserItem";
 import Loader from "../Loader/Loader";
-
 import { HomeUsersContainer } from "./UserStyled";
 
 const Users = ({ users, loader }) => {
