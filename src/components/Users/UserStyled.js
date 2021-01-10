@@ -1,6 +1,13 @@
 import styled from "styled-components";
 
 // Home Users grid container
+export const SearchTextInfoContainer = styled.div`
+  display: flex;
+  align-items: baseline;
+  margin: 10px 15px;
+  justify-content: space-between;
+`;
+
 export const HomeUsersContainer = styled.div`
   display: grid;
   gap: 1rem;
