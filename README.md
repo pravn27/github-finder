@@ -2,9 +2,8 @@
 ### `Technology stack used`
 - ReactJS V16.13.1, with react hooks
 - Bootstrap4 css framework
-- Github API service from `youtube-sr` node module
 ### `Deployed in github pages`
-- Demo link - https://pravn27.github.io/youtubeClone/
+- Demo link - 
 ### `Features included`
 - Home page
 
