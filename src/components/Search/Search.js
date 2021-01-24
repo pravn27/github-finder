@@ -16,7 +16,7 @@ const Search = ({ textInputHandler }) => {
       <input
         className="form-control mr-sm-2"
         type="search"
-        placeholder="Search"
+        placeholder="Enter your favorite user name"
         aria-label="Search"
         name="searchInput"
         value={inputText}
