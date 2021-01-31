@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import axios from "axios";
 import Loader from "../Loader/Loader";
 import Repos from "./Repos";
@@ -47,6 +48,9 @@ const UserDetails = (props) => {
   } = userDetails;
   return (
     <div className="container-fluid mt-4 mb-4">
+      <Link to={"/"} className="btn btn-outline-secondary btn-sm mx-4">
+        Back to Home
+      </Link>
       <div className="row m-4 p-4 border rounded">
         <ProfileContainer className="col-md-4">
           <img src={avatar_url} alt={name} className="img-thumbnail" />
