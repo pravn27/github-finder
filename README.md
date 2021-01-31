@@ -4,7 +4,7 @@
 - Bootstrap4 css framework
 - Github API service
 ### `Deployed in github pages`
-- Demo link - 
+- Demo link - http://pravn27.github.io/github-finder
 ### `Features included`
 - Home page with search user list
 ![image](https://user-images.githubusercontent.com/17290429/106373730-74c74400-63a2-11eb-8fc6-2353e9350472.png)
